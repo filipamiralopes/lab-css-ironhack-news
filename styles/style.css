@@ -248,17 +248,26 @@ header {
   }
 }
 
+
 /* Targets tablet screens */
 
 @media (min-width: 760px) and (max-width: 1024px) {
    /* articles */
-   /* .articles-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  } */
   .article {
     width: 45%;
     margin: 0 10px 20px 0;
+  }
+}
+
+
+/* Targets small mobile screens (width < 480px) */
+
+@media (max-width: 480px) {
+  .navbar{
+    display: none;
+  }
+  
+  .newspaper-name {
+    border-bottom: none;
   }
 }
