@@ -190,7 +190,7 @@ header {
 
 /* Media queries */
 
-/* Targets screens with a max-width of 760px */
+/* Targets mobile screens with a max-width of 760px */
 
 @media (max-width: 760px) {
 
@@ -244,5 +244,21 @@ header {
   .article .btn {
     position: relative;
     width: 40%;
+
+  }
+}
+
+/* Targets tablet screens */
+
+@media (min-width: 760px) and (max-width: 1024px) {
+   /* articles */
+   /* .articles-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  } */
+  .article {
+    width: 45%;
+    margin: 0 10px 20px 0;
   }
 }
